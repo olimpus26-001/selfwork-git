@@ -30,7 +30,7 @@ body{
 
 .navbar{
     background-color: var(--grey);
-    position: sticky;
+    z-index: 2;
 }
 
 .navbar-toggler{
@@ -58,7 +58,16 @@ body{
     font-size: 60px;
 }
 
+/* stile sezione 1 */
 
+.separatore-1{
+    background-color: var(--grey);
+    letter-spacing: 26px;
+}
+
+.card-img-top{
+    height: 200px;
+}
 
 /* media querries */
 
