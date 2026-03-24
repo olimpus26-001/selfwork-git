@@ -8,6 +8,9 @@
   <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   
+  <!-- Bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +21,13 @@
 </head>
 
 <body>
-
+  
   <!-- sezione NAV -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand fs-3" href="#">Blog della mia roba</a>
+      <a class="navbar-brand fs-3" href="#">Blog delle mie prodezze</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="bi bi-list"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
@@ -35,6 +38,52 @@
       </div>
     </div>
   </nav>
+  
+  <!-- sezione header -->
+  
+  <header class="container-fluid">
+    <div class="container header">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active position-relative">
+                <img src="./media/slenderman.jpg" class="img-carousel d-block w-100" alt="uova nel cestino">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h1 class="h1">Disegni</h1>
+                </div>
+              </div>
+              <div class="carousel-item position-relative">
+                <img src="./media/sushi.jpg" class="img-carousel d-block w-100" alt="sushi">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h1 class="h1">piatti</h1>
+                </div>
+              </div>
+              <div class="carousel-item position-relative">
+                <img src="./media/ark.webp" class="img-carousel d-block w-100" alt="ark: survival evolved">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h1 class="h1">giochi</h1>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   
   
   

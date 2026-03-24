@@ -30,4 +30,44 @@ body{
 
 .navbar{
     background-color: var(--grey);
+    position: sticky;
+}
+
+.navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+/* stile sezione header */
+
+.header{
+    width: 100%;
+}
+
+.img-carousel{
+    height: 80vh;
+}
+
+.h1{
+    letter-spacing: 4px;
+    font-size: 60px;
+}
+
+
+
+/* media querries */
+
+/* media header */
+
+@media screen and (max-width:600px) {
+
+    .img-carousel{
+        height: 40vh;
+    }
+    
 }
