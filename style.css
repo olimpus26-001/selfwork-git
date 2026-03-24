@@ -14,7 +14,7 @@ h1, h2, a{
     font-weight: 500;
 }
 
-p, button{
+p, button, li{
     color: var(--redT) !important;
     font-family: lexend, sans-serif;
     font-weight: 200;
@@ -79,6 +79,26 @@ body{
     height: 350px;
 }
 
+/* stile sezione footer */
+
+footer{
+    background-color: var(--grey);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.torna-su{
+    font-size: 2rem;
+}
+
+.social{
+    margin-left: 250px;
+    margin-top: 5px;
+
+}
+
 /* media querries */
 
 /* media header */
@@ -89,4 +109,26 @@ body{
         height: 40vh;
     }
     
+    /* media disegni */
+    
+    .disegni{
+        height: 30vh;
+    }
+
+    /* media footer */
+
+    .info{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 13px;
+    }
+
+    .social{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0;
+
+    }
 }
